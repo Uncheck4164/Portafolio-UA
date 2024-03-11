@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre el portafolio de un joven programador de Chile, experto en desarrollo de software. Explora proyectos innovadores y habilidades técnicas destacadas. ¡Conoce el talento detrás de cada línea de código!">
+
+    <!-- og -->
+    <meta property="og:title" content="Portfolio de Matias">
+    <meta property="og:description" content="Descubre el portafolio de un apasionado desarrollador de software. Explora proyectos innovadores y habilidades técnicas destacadas. ¡Conoce el talento detrás de cada línea de código!">
+    <meta property="og:image" content=""> <!-- PENDIENTE!! -->
+    <meta property="og:url" content=""> <!-- PENDIENTE!!  -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CL">
+
+    <title>Portfolio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <p class="logo">Portfolio</p>
+            <ul>
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Proyecto</a>
+                <a href="#">Sobre mí</a>
+            </ul>
+            <button>Hablame :D</button>
+        </nav>
+    </header>
+    
+    <!-- main: lo que hace única a la pagina -->
+    <main>
+        <section id="landing-page">
+            <header>
+                <img src="" alt="">
+                <h1><span class="gradient">Hola, soy Matias,</span> desarrolador web en Chile.</h1>
+            </header>
+
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam iste ipsam ut fugiat saepe delectus dolor<p>
+            <button class="get-in-touch" onclick="redirect()">GET IN TOUCH</button>
+            <button class='view-all-works' onclick='redirect("#landing-page")'>VIEW ALL WORKS</button>  
+            </div> 
+
+            <footer>
+                <p>Trusted by leading brands<p>
+                <!-- shif alt para multiplicar para abajo en vs -->
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </footer>
+        </section>
+
+        <section id="services">
+            <header>
+                <h2>Design that solves ---problems, one<span class="gradient">product at a time</span></h2>
+                <div class="buttons-container">
+                    <button class="get-in-touch" onclick="">GET IN TOUCH</button>
+                    <button class='view-all-works' onclick='redirect("#landing-page")'>VIEW ALL WORKS</button>
+                </div>
+            </header>
+
+            <ul>
+                <li>
+                    UI/UX DESIGN 
+                    <img src="" alt="">
+                </li>
+                <li>
+                    GRAPHIC DESING
+                    <img src="" alt="">
+                </li>
+                <li>
+                    JAVASCRIPT
+                    <img src="" alt="">
+                </li>
+                <li>
+                    PRODUCT DESING
+                    <img src="" alt="">
+                </li>
+            </ul>
+            
+            
+        <section>
+        
+        <section id="Projects">
+            <header>
+                <h2>Mira mis <span class="gradient">Proyectos</span></h2>
+                <p>Lorem ipsum dolor sit id inventore dolor veritatis nobis tempora quidem eum. Quod cum in modi?</p>
+            </header>
+            
+            <div class="card">
+                <img class="card-img" src="" alt="">
+                <footer>
+                    <h6>Project</h6>
+                    <h7>small description</h7>
+                </footer>
+            </div>
+            <div class="card">
+                <img class="card-img" src="" alt="">
+                <footer>
+                    <h6>Project2</h6>
+                    <h7>small description</h7>
+                </footer>
+            </div>
+            <div class="card">
+                <img class="card-img" src="" alt="">
+                <footer>
+                    <h6>Project3</h6>
+                    <h7>small description</h7>
+                </footer>
+            </div>
+            <div class="card">
+                <img class="card-img" src="" alt="">
+                <footer>
+                    <h6>Project4</h6>
+                    <h7>small description</h7>
+                </footer>
+            </div>
+        </section>
+
+        <section id="contact">
+            <article>
+                <h2>CONTÁCTANOS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis.</p>
+                <p class="icon-contact"><img src="img/icons/letter-svgrepo-com.svg" alt="ico-email">123@123.com</p>
+                <p class="icon-contact"><img src="img/icons/phone-rounded-svgrepo-com.svg" alt="ico-phone">+56 932158821</p>
+            </article>
+            <form action="/proccess-form" method="post">
+
+                <label for="name">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre*" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu email*" required>
+                
+                <label for="budget">Presupuesto</label>
+                <input type="number" id="budget" name="budget" placeholder="" required>
+
+                <label for="message">¿Qué desea realizar?*</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button id="submit">SUBMIT NOW</button>
+
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div>
+            <p class="logo">Portfolio</p>
+            <small>Copyright©️</small>
+        </div>
+        <nav>
+            <ul>
+                <a>Home</a>
+                <a>About us</a>
+                <a>Contact</a>
+            </ul>
+        </nav>
+        <div class="footer-icons">
+            <div class="container-icon">
+                <img class="icon-footer" src="img/icons/linkedin-svgrepo-com.svg" alt="Linkedin">
+            </div>
+            <div class="container-icon">
+                <img class="icon-footer" src="img/icons/twitter-bird-svgrepo-com.svg" alt="Twitter">
+            </div>
+            <div class="container-icon">
+                <img class="icon-footer" src="img/icons/instagram-svgrepo-com.svg" alt="Instagram">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
