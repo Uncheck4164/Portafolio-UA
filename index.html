@@ -21,7 +21,7 @@
 
 
 <body>
-    <header>
+    <header class="navbar-default">
         <nav>
             <p class="logo">Portfolio</p>
             <ul>
@@ -30,31 +30,30 @@
                 <a href="#">Proyecto</a>
                 <a href="#">Sobre mí</a>
             </ul>
-            <button>Hablame :D</button>
         </nav>
+        <button id="contact-me">Hablemos</button>
     </header>
     
     <!-- main: lo que hace única a la pagina -->
     <main>
         <section id="landing-page">
-            <header>
-                <img src="" alt="">
-                <h1><span class="gradient">Hola, soy Matias,</span> desarrolador web en Chile.</h1>
+            <header>    
+                <img src="img/Foto-CV-Hombre.jpg" alt="" class="profile-img">
             </header>
-
-            <div>
+            
+            <h1><span class="gradient">Hola, soy Matias,</span> desarrollador web en Chile.</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam iste ipsam ut fugiat saepe delectus dolor<p>
-            <button class="get-in-touch" onclick="redirect()">GET IN TOUCH</button>
-            <button class='view-all-works' onclick='redirect("#landing-page")'>VIEW ALL WORKS</button>  
+            <div>
+                <button class="get-in-touch" onclick="redirect()">GET IN TOUCH</button>
+                <button class='view-all-works' onclick='redirect("#landing-page")'>VIEW ALL WORKS</button>  
             </div> 
 
             <footer>
                 <p>Trusted by leading brands<p>
                 <!-- shif alt para multiplicar para abajo en vs -->
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img class="logo-companies" src="img/logosEmpresas/logoipsum-286.svg" alt="">
+                <img class="logo-companies" src="img/logosEmpresas/logoipsum-287.svg" alt="">
+                <img class="logo-companies" src="img/logosEmpresas/logoipsum-288.svg" alt="">
             </footer>
         </section>
 

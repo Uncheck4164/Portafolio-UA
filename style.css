@@ -1,3 +1,127 @@
+* {
+    margin: 0;
+}
+/* navbar */
+.navbar-default {
+    display: flex;
+    justify-content:  space-between;
+    background-color: #161513;
+
+}
+
+.logo {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+#contact-me{
+    margin-right: 3rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+.navbar-default nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.navbar-default nav ul a {
+    margin-right: 1.5rem;
+    color: white;
+}
+
+.navbar-default button{
+    display: flex;
+    align-items: center;
+}
+
+/* landing-page */
+/* REVISAR */
+html {
+    height: 100%;
+}
+
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #161513;
+    min-height: 95vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile-img {
+    background-color: white;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border-color: transparent;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    
+}
+
+#landing-page h1 {
+    font-size: 3rem;
+}
+
+.gradient {
+    /* Pagina para crear gradientes 
+    https://colorffy.com/text-gradient-generator 
+    */
+    color: #B16CEA;
+    background-image: -webkit-linear-gradient(45deg, #B16CEA 33%, #FF5E69 72%, #FF8A56 96%, #FFA84B 50%); background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;       
+}
+
+#landing-page p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.get-in-touch {
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.view-all-works {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    border: solid;
+    border-width: 0.01rem;
+    border-color: white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.logo-companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    margin: 3rem;
+}
+
+/* Contact */
 .icon-contact img {
     height: 1em;
     width: 1rem;
@@ -14,7 +138,7 @@
     flex-direction: column;
 }
 
-footer {
+/* footer {
     display: flex;
 }
 
@@ -41,12 +165,12 @@ footer .container-icon::before {
     background-image: linear-gradient(to right, #B16CEA, #FF5E69, #FF8A56, #FFA84B);
     left: -10;
     top: -10;
-    z-index: -1; /* Colocar detrás del contenido del elemento principal */
+    z-index: -1; /* Colocar detrás del contenido del elemento principal 
     border-radius: 50%;
 }
 
 footer .icon-footer {
     height: 1em;
     width: 1rem;
-}
-
+} 
+*/
