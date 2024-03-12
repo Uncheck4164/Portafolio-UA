@@ -144,15 +144,6 @@ html {
     vertical-align: middle;
 }
 
-#contact{
-    display: flex;
-}
-
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-}
 
 #services {
     background: #1C1C22;
@@ -173,8 +164,8 @@ html {
     margin: 2rem;
 }
 
-#services #button-container {
-    margin: 2rem;
+.buttons-container {
+    margin-right: 2rem;
 }
 
 #services p{
@@ -194,6 +185,17 @@ html {
     border-bottom: 0.1rem solid white;
     padding: 1rem;
 }
+
+#contact{
+    display: flex;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
 
 #projects{
     background: #161513;
