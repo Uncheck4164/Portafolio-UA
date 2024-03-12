@@ -87,7 +87,8 @@ html {
     https://colorffy.com/text-gradient-generator 
     */
     color: #B16CEA;
-    background-image: -webkit-linear-gradient(45deg, #B16CEA 33%, #FF5E69 72%, #FF8A56 96%, #FFA84B 50%); background-clip: text;
+    background-image: -webkit-linear-gradient(45deg, #B16CEA 33%, #FF5E69 72%, #FF8A56 96%, #FFA84B 50%); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;       
 }
@@ -108,7 +109,7 @@ html {
 }
 
 .get-in-touch {
-    padding: 1rem;
+    padding: 1.3rem 2.5rem;
     border-radius: 30px;
     border: none;
     cursor: pointer;
@@ -117,7 +118,7 @@ html {
 .view-all-works {
     margin-left: 0.5rem;
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 1.3rem 2.5rem;
     border-radius: 30px;
     border: solid;
     border-width: 0.01rem;
@@ -166,6 +167,11 @@ html {
 
 .buttons-container {
     margin-right: 2rem;
+}
+
+.buttons-container .get-in-touch{
+    background-image: -webkit-linear-gradient(45deg, #B16CEA 33%, #FF5E69 72%, #FF8A56 96%, #FFA84B 50%);
+    color: white;
 }
 
 #services p{
