@@ -54,9 +54,17 @@ html {
     color: white;
     background-color: #161513;
     min-height: 95vh;
+    justify-content: center;
+    
+
+}
+
+#landing-page #center-landing-page {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    margin-top:auto;
 }
 
 .profile-img {
@@ -92,6 +100,13 @@ html {
     font-size: 18px;
 }
 
+#landing-page footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:auto;
+}
+
 .get-in-touch {
     padding: 1rem;
     border-radius: 30px;
@@ -107,7 +122,7 @@ html {
     border: solid;
     border-width: 0.01rem;
     border-color: white;
-    background-color: black;
+    background-color: transparent;
     color: white;
     cursor: pointer;
 }
@@ -133,10 +148,65 @@ html {
     display: flex;
 }
 
+
 #contact form {
     display: flex;
     flex-direction: column;
 }
+
+#services {
+    background: #1C1C22;
+    flex-direction: column;
+    color: white;
+    min-height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#services header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#services h2{
+    margin: 2rem;
+}
+
+#services #button-container {
+    margin: 2rem;
+}
+
+#services p{
+    margin: 2rem;
+
+}
+
+#services ul{
+    list-style-type:none;
+    margin: 6rem;
+}
+#services li{
+    display: flex;
+    padding-bottom: 5rem;
+    font-size: 2rem;
+    border-top: 0.1rem solid white;
+    border-bottom: 0.1rem solid white;
+    padding: 1rem;
+}
+
+#projects{
+    background: #161513;
+    flex-direction: row;
+    color: white;
+    min-height: 95vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
 
 /* footer {
     display: flex;
