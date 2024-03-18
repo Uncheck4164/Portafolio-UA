@@ -3,6 +3,11 @@
     margin: 0;
     
 }
+
+body{
+    background-color: #161513;
+}
+
 h1 {
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 700;
@@ -24,7 +29,8 @@ button {
     display: flex;
     justify-content:  space-between;
     background-color: #161513;
-
+    align-items: flex-end;
+    margin-left: 7rem;
 }
 
 .logo {
@@ -37,11 +43,11 @@ button {
 }
 
 #contact-me{
-    margin-right: 3rem;
+    margin-right: 10rem;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    padding: 0 2rem;
+    padding: 0.8rem 2rem;
 }
 
 
@@ -79,15 +85,15 @@ html {
     min-height: 100vh;
     justify-content: center;
     
-
 }
 
 #landing-page #center-landing-page {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top:5rem;
+    margin-top: 8rem;
 }
 
 .profile-img {
@@ -101,6 +107,14 @@ html {
 
 #landing-page h1 {
     font-size: 3.5rem;
+    display: grid;
+    place-items: center;
+}
+
+#landing-page br {
+    content: '\A';
+    display: none;
+    white-space: pre;
 }
 
 .gradient {
